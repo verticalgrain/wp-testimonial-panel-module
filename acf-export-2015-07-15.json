@@ -1,0 +1,138 @@
+[
+    {
+        "key": "group_54e62167c1a78",
+        "title": "Testimonial Panel",
+        "fields": [
+            {
+                "key": "field_54e625b619d59",
+                "label": "Testimonial panel background image",
+                "name": "testimonial_panel_background_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "hero",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_54e625d619d5a",
+                "label": "Testimonial panel quote",
+                "name": "testimonial_panel_quote",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "wpautop",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_54e625e619d5b",
+                "label": "Testimonial panel name",
+                "name": "testimonial_panel_name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_54e625f219d5c",
+                "label": "Testimonial panel title",
+                "name": "testimonial_panel_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_54e62b0b159ba",
+                "label": "Testimonial panel text alignment",
+                "name": "testimonial_panel_text_alignment",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "lefttop": "Left Top",
+                    "leftmid": "Left Middle",
+                    "leftbot": "Left Bottom",
+                    "righttop": "Right Top",
+                    "rightmid": "Right Middle",
+                    "rightbot": "Right Bottom"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "leftmid",
+                "layout": "horizontal"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "28"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "left",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content"
+        ]
+    }
+]

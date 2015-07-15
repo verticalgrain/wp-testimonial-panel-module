@@ -1,0 +1,69 @@
+.testimonial-panel {
+	width: 100%;
+	background-color: transparent;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	&__inner {
+		@include span(12 of 12);
+		min-height: 535px;
+		position: relative;
+		@media (max-width: $breakpoint-medium) {
+			min-height: 250px;
+		}
+	}
+	&__content {
+		width: 100%;
+		max-width: 45%;
+		position: absolute;
+		.align-lefttop & {
+			left: 0;
+			top: 80px;
+		}
+		.align-leftmid & {
+			top: 35%;
+			left: 0;
+		}
+		.align-leftbot & {
+			bottom: 60px;
+			left: 0;
+		}
+		.align-righttop & {
+			right: 0;
+			top: 80px;
+		}
+		.align-rightmid & {
+			right: 0;
+			top: 35%;
+		}
+		.align-rightbot & {
+			right: 0;
+			bottom: 60px;
+		}
+		@media (max-width: $breakpoint-medium) {
+			left: 0 !important;
+			top: 0 !important;
+			text-align: center;
+			max-width: 100%;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+	}
+	&__quote, &__quote p{
+		font-size: 24px;
+		font-weight: 600;
+		color: white;
+		line-height: 130%;
+		margin-bottom: 18px;
+	}
+	&__name {
+		font-size: 13px;
+		font-weight: 600;
+		color: white;
+		line-height: 120%;
+	}
+	&__title {
+		font-size: 13px;
+		color: white;
+	}
+}
